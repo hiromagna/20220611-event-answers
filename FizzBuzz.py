@@ -11,8 +11,6 @@ for num in range(1, 101):
         string += "Buzz"
     else:
         string += str(num)
-
-
     # ここまで記述
 
     print(string)
