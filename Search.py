@@ -22,7 +22,6 @@ def serch_index(sorted_array, target_number):
             end = mid - 1 #探索範囲をstartからmid-1に絞れた
         else:
             start = mid + 1  #探索範囲をmid+1からendに絞れた
-
     # ここまで記述
 
     # 探索対象が存在しない場合、-1を返却
